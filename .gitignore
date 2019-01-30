@@ -1,0 +1,9 @@
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# project
+build/
+.vscode/
+.idea/

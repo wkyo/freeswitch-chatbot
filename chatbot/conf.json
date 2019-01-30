@@ -1,0 +1,9 @@
+{
+    "baidu": {
+        "apikey": "your api key",
+        "secret": "your securet",
+        "synthesis": {
+            "cuid": "mac address"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<include>
+	<extension name="chat_robot">
+		<condition field="destination_number" expression="^40095598$">
+			<action application="answer"/>
+			<action application="sleep" data="1000"/>
+			<action application="python" data="chatbot.fs2chatbot"/>
+		</condition>
+	</extension>
+</include>
